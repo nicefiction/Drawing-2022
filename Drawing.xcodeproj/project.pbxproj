@@ -13,6 +13,7 @@
 		C5ACC25B281286C800D2A477 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5ACC25A281286C800D2A477 /* Preview Assets.xcassets */; };
 		C5ACC263281287C800D2A477 /* CreatingCustomPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ACC262281287C800D2A477 /* CreatingCustomPaths.swift */; };
 		C5ACC265281292FC00D2A477 /* PathsVersusShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ACC264281292FC00D2A477 /* PathsVersusShapes.swift */; };
+		C5ACC26728129B9E00D2A477 /* AddingStrokeBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ACC26628129B9E00D2A477 /* AddingStrokeBorder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		C5ACC25A281286C800D2A477 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C5ACC262281287C800D2A477 /* CreatingCustomPaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatingCustomPaths.swift; sourceTree = "<group>"; };
 		C5ACC264281292FC00D2A477 /* PathsVersusShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathsVersusShapes.swift; sourceTree = "<group>"; };
+		C5ACC26628129B9E00D2A477 /* AddingStrokeBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingStrokeBorder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				C5ACC262281287C800D2A477 /* CreatingCustomPaths.swift */,
 				C5ACC264281292FC00D2A477 /* PathsVersusShapes.swift */,
+				C5ACC26628129B9E00D2A477 /* AddingStrokeBorder.swift */,
 			);
 			path = "Day 43";
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5ACC263281287C800D2A477 /* CreatingCustomPaths.swift in Sources */,
+				C5ACC26728129B9E00D2A477 /* AddingStrokeBorder.swift in Sources */,
 				C5ACC256281286C600D2A477 /* ContentView.swift in Sources */,
 				C5ACC265281292FC00D2A477 /* PathsVersusShapes.swift in Sources */,
 				C5ACC254281286C600D2A477 /* DrawingApp.swift in Sources */,

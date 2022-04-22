@@ -66,7 +66,8 @@ struct PathsVersusShapes: View {
     var body: some View {
     
         Triangle()
-            .stroke(.red, style: StrokeStyle.init(lineWidth: 20))
+            .stroke(.red,
+                    style: StrokeStyle.init(lineWidth: 20))
 //            .stroke(.blue, style: StrokeStyle.init(lineWidth: 20,
 //                                                   lineCap: .round,
 //                                                   lineJoin: .round))
@@ -76,7 +77,8 @@ struct PathsVersusShapes: View {
         Arc(startAngle: Angle.init(degrees: 0.00),
             endAngle: Angle.init(degrees: 90.00),
             isClockWise: true)
-        .stroke(style: StrokeStyle.init(lineWidth: 15))
+        .stroke(.green,
+                style: StrokeStyle.init(lineWidth: 15))
     }
     
     
