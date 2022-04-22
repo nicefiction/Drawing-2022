@@ -11,6 +11,7 @@
 		C5ACC256281286C600D2A477 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ACC255281286C600D2A477 /* ContentView.swift */; };
 		C5ACC258281286C800D2A477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5ACC257281286C800D2A477 /* Assets.xcassets */; };
 		C5ACC25B281286C800D2A477 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5ACC25A281286C800D2A477 /* Preview Assets.xcassets */; };
+		C5ACC263281287C800D2A477 /* CreatingCustomPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ACC262281287C800D2A477 /* CreatingCustomPaths.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		C5ACC255281286C600D2A477 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C5ACC257281286C800D2A477 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5ACC25A281286C800D2A477 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C5ACC262281287C800D2A477 /* CreatingCustomPaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatingCustomPaths.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				C5ACC255281286C600D2A477 /* ContentView.swift */,
 				C5ACC257281286C800D2A477 /* Assets.xcassets */,
 				C5ACC259281286C800D2A477 /* Preview Content */,
+				C5ACC261281286DF00D2A477 /* Day 43 */,
 			);
 			path = Drawing;
 			sourceTree = "<group>";
@@ -65,6 +68,14 @@
 				C5ACC25A281286C800D2A477 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C5ACC261281286DF00D2A477 /* Day 43 */ = {
+			isa = PBXGroup;
+			children = (
+				C5ACC262281287C800D2A477 /* CreatingCustomPaths.swift */,
+			);
+			path = "Day 43";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5ACC263281287C800D2A477 /* CreatingCustomPaths.swift in Sources */,
 				C5ACC256281286C600D2A477 /* ContentView.swift in Sources */,
 				C5ACC254281286C600D2A477 /* DrawingApp.swift in Sources */,
 			);

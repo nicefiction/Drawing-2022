@@ -1,11 +1,7 @@
-//
-//  ContentView.swift
-//  Drawing
-//
-//  Created by Olivier Van hamme on 22/04/2022.
-//
-
+// MARK: - LIBRARIES
 import SwiftUI
+
+
 
 struct ContentView: View {
     var body: some View {
