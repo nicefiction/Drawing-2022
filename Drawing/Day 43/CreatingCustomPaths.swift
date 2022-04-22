@@ -13,16 +13,18 @@ struct CreatingCustomPaths: View {
     // MARK: - COMPUTED PROPERTIES
     var body: some View {
     
-//        Path { path in
-//
-//            path.move(to: CGPoint(x: 200, y: 100))
-//            path.addLine(to: CGPoint(x: 100, y: 300))
-//            path.addLine(to: CGPoint(x: 300, y: 300))
-//            path.addLine(to: CGPoint(x: 200, y: 100))
-//            path.closeSubpath()
-//        }
-//        // .fill(.blue)
-//        .stroke(.blue, lineWidth: 20)
+        Path { path in
+            /// Move to a starting position:
+            path.move(to: CGPoint(x: 200, y: 100))
+            /// Then add 3 lines:
+            path.addLine(to: CGPoint(x: 100, y: 300))
+            path.addLine(to: CGPoint(x: 300, y: 300))
+            path.addLine(to: CGPoint(x: 200, y: 100))
+            path.closeSubpath()
+        }
+        // .fill(.blue)
+        .stroke(.blue, lineWidth: 20)
+        
         
         Path { path in
             
