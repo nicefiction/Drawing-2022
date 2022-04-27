@@ -46,7 +46,7 @@ struct DrawingApp: App {
  // MARK: - HELPER METHODS
  */
 /*
- // MARK: - PREVIEWS
+ // PREVIEWS /////////////////
  
  // MARK: - STATIC PROPERTIES
  // MARK: - COMPUTED PROPERTIES

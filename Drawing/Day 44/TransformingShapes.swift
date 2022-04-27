@@ -9,7 +9,7 @@ struct Flower: Shape {
     
     // MARK: - PROPERTIES
     /// How much to move this petal away from the center
-    var petalOffset: Double = -100
+    var petalOffset: Double = 100
     /// How wide to make each petal
     var petalWidth: Double = 100
 
@@ -23,7 +23,7 @@ struct Flower: Shape {
         /// Count from 0 up to pi * 2, moving up pi / 8 each time
         for number in stride(from: 0,
                              to: Double.pi * 2,
-                             by: Double.pi / 8) {
+                             by: Double.pi / 3) {
             /// rotate the petal by the current value of our loop
             let rotation = CGAffineTransform(rotationAngle: number)
 
@@ -33,8 +33,9 @@ struct Flower: Shape {
 
             /// create a path for this petal using our properties plus a fixed Y and height
             let originalPetal = Path(ellipseIn: CGRect(x: petalOffset,
-                                                       y: 0, width: petalWidth,
-                                                       height: rect.width / 2))
+                                                       y: 0,
+                                                       width: petalWidth,
+                                                       height: rect.width / 8))
 
             /// apply our rotation/position transformation to the petal
             let rotatedPetal = originalPetal.applying(position)
@@ -55,8 +56,8 @@ struct Flower: Shape {
 struct TransformingShapes: View {
     
     // MARK: - STATIC PROPERTIES
-    @State private var petalOffset: Double = -20.00
-    @State private var petalWidth: Double = 100.00
+    @State private var petalOffset: Double = 50.00
+    @State private var petalWidth: Double = 50.00
     
     
     
