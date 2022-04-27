@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C53F149328191EA000DA7F07 /* CreatingCustomPaths2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53F149228191EA000DA7F07 /* CreatingCustomPaths2.swift */; };
 		C53F149528192A4300DA7F07 /* PathsVersusShapes2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53F149428192A4300DA7F07 /* PathsVersusShapes2.swift */; };
+		C53F14972819307400DA7F07 /* AddingStrokeBorder2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53F14962819307400DA7F07 /* AddingStrokeBorder2.swift */; };
 		C5ACC254281286C600D2A477 /* DrawingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ACC253281286C600D2A477 /* DrawingApp.swift */; };
 		C5ACC256281286C600D2A477 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ACC255281286C600D2A477 /* ContentView.swift */; };
 		C5ACC258281286C800D2A477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5ACC257281286C800D2A477 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		C53F149228191EA000DA7F07 /* CreatingCustomPaths2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatingCustomPaths2.swift; sourceTree = "<group>"; };
 		C53F149428192A4300DA7F07 /* PathsVersusShapes2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathsVersusShapes2.swift; sourceTree = "<group>"; };
+		C53F14962819307400DA7F07 /* AddingStrokeBorder2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingStrokeBorder2.swift; sourceTree = "<group>"; };
 		C5ACC250281286C600D2A477 /* Drawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5ACC253281286C600D2A477 /* DrawingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingApp.swift; sourceTree = "<group>"; };
 		C5ACC255281286C600D2A477 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				C5ACC264281292FC00D2A477 /* PathsVersusShapes.swift */,
 				C53F149428192A4300DA7F07 /* PathsVersusShapes2.swift */,
 				C5ACC26628129B9E00D2A477 /* AddingStrokeBorder.swift */,
+				C53F14962819307400DA7F07 /* AddingStrokeBorder2.swift */,
 			);
 			path = "Day 43";
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				C5ACC256281286C600D2A477 /* ContentView.swift in Sources */,
 				C5ACC26A2812AEFA00D2A477 /* TransformingShapes.swift in Sources */,
 				C53F149328191EA000DA7F07 /* CreatingCustomPaths2.swift in Sources */,
+				C53F14972819307400DA7F07 /* AddingStrokeBorder2.swift in Sources */,
 				C5ACC265281292FC00D2A477 /* PathsVersusShapes.swift in Sources */,
 				C5ACC254281286C600D2A477 /* DrawingApp.swift in Sources */,
 			);
