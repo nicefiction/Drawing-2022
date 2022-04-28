@@ -14,6 +14,7 @@
 		C53F149B28194C4900DA7F07 /* UsingImagePaint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53F149A28194C4900DA7F07 /* UsingImagePaint.swift */; };
 		C53F14D6281A747200DA7F07 /* SpecialEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53F14D5281A747200DA7F07 /* SpecialEffects.swift */; };
 		C53F14D8281A86AB00DA7F07 /* AnimatingWithAnimatableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53F14D7281A86AB00DA7F07 /* AnimatingWithAnimatableData.swift */; };
+		C53F14DA281A9AD700DA7F07 /* AnimatingComplexShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53F14D9281A9AD700DA7F07 /* AnimatingComplexShapes.swift */; };
 		C5ACC254281286C600D2A477 /* DrawingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ACC253281286C600D2A477 /* DrawingApp.swift */; };
 		C5ACC256281286C600D2A477 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ACC255281286C600D2A477 /* ContentView.swift */; };
 		C5ACC258281286C800D2A477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5ACC257281286C800D2A477 /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 		C53F149A28194C4900DA7F07 /* UsingImagePaint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingImagePaint.swift; sourceTree = "<group>"; };
 		C53F14D5281A747200DA7F07 /* SpecialEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialEffects.swift; sourceTree = "<group>"; };
 		C53F14D7281A86AB00DA7F07 /* AnimatingWithAnimatableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingWithAnimatableData.swift; sourceTree = "<group>"; };
+		C53F14D9281A9AD700DA7F07 /* AnimatingComplexShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingComplexShapes.swift; sourceTree = "<group>"; };
 		C5ACC250281286C600D2A477 /* Drawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5ACC253281286C600D2A477 /* DrawingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingApp.swift; sourceTree = "<group>"; };
 		C5ACC255281286C600D2A477 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 			children = (
 				C53F14D5281A747200DA7F07 /* SpecialEffects.swift */,
 				C53F14D7281A86AB00DA7F07 /* AnimatingWithAnimatableData.swift */,
+				C53F14D9281A9AD700DA7F07 /* AnimatingComplexShapes.swift */,
 			);
 			path = "Day 45";
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				C53F149528192A4300DA7F07 /* PathsVersusShapes2.swift in Sources */,
 				C5ACC26728129B9E00D2A477 /* AddingStrokeBorder.swift in Sources */,
 				C5ACC256281286C600D2A477 /* ContentView.swift in Sources */,
+				C53F14DA281A9AD700DA7F07 /* AnimatingComplexShapes.swift in Sources */,
 				C5ACC26A2812AEFA00D2A477 /* TransformingShapes.swift in Sources */,
 				C53F149328191EA000DA7F07 /* CreatingCustomPaths2.swift in Sources */,
 				C53F14972819307400DA7F07 /* AddingStrokeBorder2.swift in Sources */,
